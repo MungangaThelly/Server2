@@ -5,7 +5,7 @@ const path = require('path')
 const passwordCheck = require('./middleware/passwordCheck')
 
 const app = express()
-const PORT = 5000
+const PORT = 3001
 
 app.use(bodyParser.urlencoded({ extended: true }))
 
